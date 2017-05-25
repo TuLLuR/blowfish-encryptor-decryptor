@@ -6,12 +6,4 @@ Schneier designed Blowfish as a general-purpose algorithm, intended as an altern
 Notable features of the design include key-dependent S-boxes and a highly complex key schedule.
 
 # Blowfish in programm
- In abstract class BlowFish, I have 1 encrypting method 'public static void encrypt(File inputFile, File outputFile)
-            throws Exception {
-        doCrypto(Cipher.ENCRYPT_MODE, inputFile, outputFile);
-        System.out.println("File encrypted successfully!");
-    }' and 1 decrypting'public static void decrypt(File inputFile, File outputFile)
-            throws Exception {
-        doCrypto(Cipher.DECRYPT_MODE, inputFile, outputFile);
-        System.out.println("File decrypted successfully!");
-    } ';
+ In abstract class BlowFish, I have 1 encrypting method:
