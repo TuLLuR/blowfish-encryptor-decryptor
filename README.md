@@ -109,6 +109,17 @@ Folder  “LogIn”:
 *	loginForm – main class for LogIn screen;
 
 And logScreen.fxml;
+# Technical requirements
+OS:
+
+* Windows;
+
+*	MacOS;
+
+*	Linux;
+
+And Java 8;
+
 
 
  
