@@ -7,3 +7,18 @@ Notable features of the design include key-dependent S-boxes and a highly comple
 
 # Blowfish in program
  In abstract class BlowFish, I have 1 encrypting method:
+ ```java 
+  public static void encrypt(File inputFile, File outputFile)
+            throws Exception {
+        doCrypto(Cipher.ENCRYPT_MODE, inputFile, outputFile);
+        System.out.println("File encrypted successfully!");
+    } 
+ ```
+  ```java 
+ public static void decrypt(File inputFile, File outputFile)
+            throws Exception {
+        doCrypto(Cipher.DECRYPT_MODE, inputFile, outputFile);
+        System.out.println("File decrypted successfully!");
+    }
+
+ ```
